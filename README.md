@@ -9,7 +9,8 @@ numpy==1.24.3
   
     
 **Train**    
-首先解压data.rar到codes的上一级文件夹
+首先解压data.rar到codes的上一级文件夹  
+
 下面是两个运用cuda训练RotatE模型和HAKE模型的例子，在codes的上一级文件夹运行如下代码，模型会自动保存在models文件夹里
 ```
 CUDA_VISIBLE_DEVICES=0 python -u codes/run.py --do_train \
